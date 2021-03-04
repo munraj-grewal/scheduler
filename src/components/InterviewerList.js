@@ -5,7 +5,7 @@ import InterviewerListItem from "components/InterviewerListItem"
 
 export default function InterviewerList(props) {
 
-  const { interviewers } = props
+  const { interviewers } = props;
   InterviewerList.propTypes = {interviewers: PropTypes.array.isRequired};
 
   const interviewerList = interviewers.map(value => (
@@ -23,6 +23,6 @@ export default function InterviewerList(props) {
       <h4 className="interviewers__header text--light">{props.name}</h4>
       <ul className="interviewers__list">{interviewerList}</ul>
     </section>
-  )
+  );
   
 }

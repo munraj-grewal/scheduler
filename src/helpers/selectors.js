@@ -21,7 +21,7 @@ export function getAppointmentsForDay(state, day) {
 
     appointments.push(state.appointments[appointment])
 
-  })
+  });
 
   return appointments;
 
@@ -67,7 +67,7 @@ export function getInterviewersForDay(state, day) {
 
     interviewers.push(state.interviewers[appointment])
 
-  })
+  });
 
   return interviewers;
 

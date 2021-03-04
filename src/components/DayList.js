@@ -13,11 +13,10 @@ export default function DayList(props) {
       />
   ));
   
-  
   return (
-  <ul>
-    {dayList}
-  </ul>
+    <ul>
+      {dayList}
+    </ul>
   );
 
 };
